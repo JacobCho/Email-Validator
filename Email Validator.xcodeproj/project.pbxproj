@@ -13,6 +13,15 @@
 		12E512E52075D41100D3C552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E512E42075D41100D3C552 /* Assets.xcassets */; };
 		12E512E82075D41100D3C552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E512E62075D41100D3C552 /* LaunchScreen.storyboard */; };
 		12E512EB2075D41100D3C552 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E512EA2075D41100D3C552 /* main.m */; };
+		12E512F92075E6C600D3C552 /* ValidationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E512F82075E6C600D3C552 /* ValidationService.m */; };
+		12E512FC2075EF2700D3C552 /* ValidationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E512FB2075EF2700D3C552 /* ValidationResponse.m */; };
+		12E512FF20797EF400D3C552 /* ValidationError.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E512FE20797EF400D3C552 /* ValidationError.m */; };
+		12E513032079CE1100D3C552 /* SuccessModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E513022079CE1100D3C552 /* SuccessModal.m */; };
+		12E513052079CE2400D3C552 /* SuccessModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E513042079CE2400D3C552 /* SuccessModal.xib */; };
+		12E5130F207AE34900D3C552 /* SuggestionsAccessoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E5130D207AE34900D3C552 /* SuggestionsAccessoryViewController.xib */; };
+		12E51310207AE42B00D3C552 /* SuggestionsAccessoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E5130C207AE34900D3C552 /* SuggestionsAccessoryViewController.m */; };
+		12E51314207AE52500D3C552 /* SuggestionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E51312207AE52500D3C552 /* SuggestionCollectionViewCell.m */; };
+		12E51315207AE52500D3C552 /* SuggestionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E51313207AE52500D3C552 /* SuggestionCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,21 @@
 		12E512E72075D41100D3C552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12E512E92075D41100D3C552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12E512EA2075D41100D3C552 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12E512F72075E6C600D3C552 /* ValidationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidationService.h; sourceTree = "<group>"; };
+		12E512F82075E6C600D3C552 /* ValidationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidationService.m; sourceTree = "<group>"; };
+		12E512FA2075EF2700D3C552 /* ValidationResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidationResponse.h; sourceTree = "<group>"; };
+		12E512FB2075EF2700D3C552 /* ValidationResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidationResponse.m; sourceTree = "<group>"; };
+		12E512FD20797EF400D3C552 /* ValidationError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidationError.h; sourceTree = "<group>"; };
+		12E512FE20797EF400D3C552 /* ValidationError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidationError.m; sourceTree = "<group>"; };
+		12E513012079CE1100D3C552 /* SuccessModal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuccessModal.h; sourceTree = "<group>"; };
+		12E513022079CE1100D3C552 /* SuccessModal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuccessModal.m; sourceTree = "<group>"; };
+		12E513042079CE2400D3C552 /* SuccessModal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuccessModal.xib; sourceTree = "<group>"; };
+		12E5130B207AE34900D3C552 /* SuggestionsAccessoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuggestionsAccessoryViewController.h; sourceTree = "<group>"; };
+		12E5130C207AE34900D3C552 /* SuggestionsAccessoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuggestionsAccessoryViewController.m; sourceTree = "<group>"; };
+		12E5130D207AE34900D3C552 /* SuggestionsAccessoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionsAccessoryViewController.xib; sourceTree = "<group>"; };
+		12E51311207AE52500D3C552 /* SuggestionCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuggestionCollectionViewCell.h; sourceTree = "<group>"; };
+		12E51312207AE52500D3C552 /* SuggestionCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuggestionCollectionViewCell.m; sourceTree = "<group>"; };
+		12E51313207AE52500D3C552 /* SuggestionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +84,62 @@
 			children = (
 				12E512DB2075D41000D3C552 /* AppDelegate.h */,
 				12E512DC2075D41000D3C552 /* AppDelegate.m */,
-				12E512DE2075D41000D3C552 /* ViewController.h */,
-				12E512DF2075D41000D3C552 /* ViewController.m */,
-				12E512E12075D41000D3C552 /* Main.storyboard */,
+				12E512F62075E68F00D3C552 /* Services */,
+				12E512F42075DA5C00D3C552 /* Controllers */,
+				12E512F52075DA6600D3C552 /* Models */,
+				12E513002079CDA800D3C552 /* Views */,
 				12E512E42075D41100D3C552 /* Assets.xcassets */,
 				12E512E62075D41100D3C552 /* LaunchScreen.storyboard */,
 				12E512E92075D41100D3C552 /* Info.plist */,
 				12E512EA2075D41100D3C552 /* main.m */,
 			);
 			path = "Email Validator";
+			sourceTree = "<group>";
+		};
+		12E512F42075DA5C00D3C552 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				12E512DE2075D41000D3C552 /* ViewController.h */,
+				12E512DF2075D41000D3C552 /* ViewController.m */,
+				12E5130B207AE34900D3C552 /* SuggestionsAccessoryViewController.h */,
+				12E5130C207AE34900D3C552 /* SuggestionsAccessoryViewController.m */,
+				12E5130D207AE34900D3C552 /* SuggestionsAccessoryViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		12E512F52075DA6600D3C552 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12E512FA2075EF2700D3C552 /* ValidationResponse.h */,
+				12E512FB2075EF2700D3C552 /* ValidationResponse.m */,
+				12E512FD20797EF400D3C552 /* ValidationError.h */,
+				12E512FE20797EF400D3C552 /* ValidationError.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12E512F62075E68F00D3C552 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				12E512F72075E6C600D3C552 /* ValidationService.h */,
+				12E512F82075E6C600D3C552 /* ValidationService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		12E513002079CDA800D3C552 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12E512E12075D41000D3C552 /* Main.storyboard */,
+				12E513012079CE1100D3C552 /* SuccessModal.h */,
+				12E513022079CE1100D3C552 /* SuccessModal.m */,
+				12E513042079CE2400D3C552 /* SuccessModal.xib */,
+				12E51311207AE52500D3C552 /* SuggestionCollectionViewCell.h */,
+				12E51312207AE52500D3C552 /* SuggestionCollectionViewCell.m */,
+				12E51313207AE52500D3C552 /* SuggestionCollectionViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +199,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E51315207AE52500D3C552 /* SuggestionCollectionViewCell.xib in Resources */,
 				12E512E82075D41100D3C552 /* LaunchScreen.storyboard in Resources */,
 				12E512E52075D41100D3C552 /* Assets.xcassets in Resources */,
 				12E512E32075D41000D3C552 /* Main.storyboard in Resources */,
+				12E5130F207AE34900D3C552 /* SuggestionsAccessoryViewController.xib in Resources */,
+				12E513052079CE2400D3C552 /* SuccessModal.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +216,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				12E512E02075D41000D3C552 /* ViewController.m in Sources */,
+				12E51314207AE52500D3C552 /* SuggestionCollectionViewCell.m in Sources */,
 				12E512EB2075D41100D3C552 /* main.m in Sources */,
+				12E512F92075E6C600D3C552 /* ValidationService.m in Sources */,
+				12E512FC2075EF2700D3C552 /* ValidationResponse.m in Sources */,
+				12E513032079CE1100D3C552 /* SuccessModal.m in Sources */,
+				12E51310207AE42B00D3C552 /* SuggestionsAccessoryViewController.m in Sources */,
 				12E512DD2075D41000D3C552 /* AppDelegate.m in Sources */,
+				12E512FF20797EF400D3C552 /* ValidationError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +363,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V83QMQ274V;
 				INFOPLIST_FILE = "Email Validator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +373,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Jacob-Cho.Email-Validator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -299,7 +382,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V83QMQ274V;
 				INFOPLIST_FILE = "Email Validator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +392,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Jacob-Cho.Email-Validator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

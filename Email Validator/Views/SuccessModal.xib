@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SuccessModal">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="80u-91-gN8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="That's a valid email!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4j3-re-LMe">
+                    <rect key="frame" x="8" y="57" width="184" height="35"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="email" translatesAutoresizingMaskIntoConstraints="NO" id="UTe-ls-Krt">
+                    <rect key="frame" x="70" y="8" width="60" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="Nco-7W-9wI"/>
+                        <constraint firstAttribute="height" constant="40" id="Tu2-Kq-kdL"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.00010179560610000001" green="0.68442275399999997" blue="0.0001579198568" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4j3-re-LMe" firstAttribute="top" secondItem="UTe-ls-Krt" secondAttribute="bottom" constant="9" id="2gd-cm-OWn"/>
+                <constraint firstItem="UTe-ls-Krt" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="C2b-43-LgR"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="4j3-re-LMe" secondAttribute="trailing" constant="8" id="DE5-Ob-2Wx"/>
+                <constraint firstItem="4j3-re-LMe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="Orb-j2-VwA"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="4j3-re-LMe" secondAttribute="bottom" constant="8" id="V8w-lD-kaW"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="4j3-re-LMe" secondAttribute="bottom" constant="8" id="YQN-aC-ZwY"/>
+                <constraint firstItem="UTe-ls-Krt" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="Yjf-g4-khP"/>
+                <constraint firstItem="4j3-re-LMe" firstAttribute="top" secondItem="UTe-ls-Krt" secondAttribute="bottom" constant="9" id="pHI-X6-Qun"/>
+                <constraint firstItem="4j3-re-LMe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="sHb-3h-U0x"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="4j3-re-LMe" secondAttribute="trailing" constant="8" id="txP-Xu-ldp"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-54" y="-58"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="email" width="100" height="100"/>
+    </resources>
+</document>
